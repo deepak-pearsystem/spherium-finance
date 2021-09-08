@@ -1,3 +1,7 @@
+
+import axios from "axios";
+import { API_ROOT } from '../apiConfig';
+
 export default function validateInfo(values){
     let errors = {}
     console.log(values);
@@ -30,8 +34,18 @@ export default function validateInfo(values){
     }
 
     if(values.firstname !== "" && values.lastname !== "" && values.email !== "" && values.phoneno !== "" && values.message !== ""){
-        window.location.href = "#/Thanks";   
-    }
+        var reportdata = {name:values.firstname, lname:values.lastname, phone:values.phoneno, email:values.email, message:values.message};
+        return axios.post(`${API_ROOT}/contact`,reportdata)
+        .then(function (response) {
+            console.log(response.data);
+            if(response.data.api_status == 200){
+                window.location.href = "#/Thanks";  
+            }
+        })
+        .catch(function (error) {
+            console.log(error);
+        }); 
+        }
 
     return errors;
 }   
