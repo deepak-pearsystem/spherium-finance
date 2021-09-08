@@ -1,0 +1,167 @@
+@import'../../css/variables';
+.cmspages-wrapper{
+    float: left;
+    width: 100%;
+    .about-wrapper{
+        float: left;
+        width: 100%;
+        padding: 3rem 0 0 0;
+        &__title{
+            float: left;
+            width: 100%;
+            text-align: center;
+        }
+        &__info{
+            font-family: 'Sora', sans-serif;
+            font-weight: 300;
+            font-size: 14px;
+            line-height:28px;
+            letter-spacing: 0px;
+            color: #2E3147;
+            text-align: center;
+            p{
+                margin-bottom: 0.8rem;
+            }
+        }
+         &__infowhoweare{
+            float: left;
+            width: 100%;
+         }
+         &__description{
+             width: 655px;
+             margin: 0 auto;
+             padding: 0.5rem 0;
+             font-family: 'Sora', sans-serif;
+             font-weight: 300;
+             font-size: 14px;
+             line-height:28px;
+             letter-spacing: 0px;
+             color: #2E3147;
+             text-align: center;
+         }
+        &__mission{
+            float: left;
+            width: 100%;
+            text-align: center;
+            margin-top: 3rem;
+        }
+        &__whoweare{
+            float: left;
+            width: 100%;
+            margin-top: 6rem;
+            background:#F5F6FB;
+            padding: 3rem 0;
+        }
+        &__members{
+            float: left;
+            width: 100%;
+        }
+        &__card{
+            float: left;
+            width: 100%;
+            margin-top: 2rem;
+        }
+        img{
+            object-fit: cover;
+        }
+        &__name{
+            float: left;
+            width: 100%;
+            text-align: left;
+            font-size: 19px;
+            margin-bottom: 0.5rem;
+            color: #181A2B;
+            font-weight: 400;
+            font-family: 'Sora', sans-serif;
+        }
+        &__position{
+            float: left;
+            width: 100%;
+            text-align: left;
+            font-size: 16px;
+            margin-bottom: 0.5rem;
+            color: #A0A6BC;
+            font-weight: 500;
+            font-family: 'Sora', sans-serif;
+        }
+        &__social{
+            float: left;
+            width: 100%;
+            text-align: left;
+            list-style: none;
+            padding: 0px;
+            li{
+                float: left;
+                margin-right: 1rem;
+                a{
+                    fill: #a0a6bc;
+                    transition: $transition;
+                    &:hover{
+                        fill: #1DA1F2;
+                        transition: $transition;
+                    }
+                }
+            }
+        }
+        &__advisors{
+            float: left;
+            width: 100%;
+            background:#F5F6FB;
+            padding: 2rem 0 2rem 0;
+            margin-top: 2rem;
+            h4{
+                float: left;
+                width: 100%;
+                text-align: center;
+                font-size: 22px;    
+                font-weight: 400;
+                margin: 1rem 0 3rem 0;
+                color: #181A2B;
+                font-family: 'Raleway', sans-serif;
+            }
+            .advisorsicons{
+                margin: 0 auto;
+                width: 50%;
+                display: flex;
+                align-items: center;
+                justify-content:space-around;
+                // .advisorsicon{
+
+                // }
+            }
+        }
+    }
+    // .animation-tiles{
+    //     float: left;
+    //     width: 100%;
+    //     height: 100%;
+    //     overflow: hidden;
+    //     margin: 15px 0px;
+    // }
+    // .hover03 figure img {
+    //     width: 100%;
+    //     height: 100%;
+    //     -webkit-transform: scale(1.5);
+    //     transform: scale(1.5);
+    //     -webkit-transition: .3s ease-in-out;
+    //     transition: .3s ease-in-out;
+    // }
+    // .hover03 figure:hover img {
+    //     -webkit-transform: scale(1);
+    //     transform: scale(1);
+    // }
+     /* Opacity #2 */
+     .hover12 figure {
+        background: #1abc9c;
+        width: 290px;
+    }
+    .hover12 figure img {
+        opacity: 1;
+        -webkit-transition: .3s ease-in-out;
+        transition: .3s ease-in-out;
+    }
+    .hover12 figure:hover img {
+        opacity: .7;
+        transition: .3s ease-in-out;
+    }
+}

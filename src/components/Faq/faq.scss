@@ -1,0 +1,144 @@
+@import '../../css/variables';
+@import '../../css/mixin';
+.faq-wrapper{
+    float: left;
+    width: 100%;
+    padding: 3rem 0;
+    .tabcontainer{
+        #pills-tab{
+            justify-content: flex-start;
+            align-items: center;
+            display: flex;
+            .nav-item{
+                .nav-link{
+                    font-size: 16x;
+                    padding: 0px 0 10px 0;
+                    margin-right: 1.5rem;
+                    font-weight: 500;
+                    border-bottom: 2px solid transparent;
+                    color: $font-tab;
+                    font-family: 'Raleway', sans-serif;
+                }
+                .nav-link.active{
+                    color:  $tabfontactive;
+                    border-bottom: 2px solid  $tabfontactive;
+                    background: transparent;
+                    border-radius: 0px;
+                    -webkit-border-radius: 0px;
+                    -moz-border-radius: 0px;
+                }
+            }
+        }
+        #pills-tabContent{
+            margin-top: 2rem;
+            .tabinnerinfo-mask{
+                float: left;
+                width: 100%;
+                display:flex;
+                align-items: center;
+                justify-content: space-between;
+                flex-direction: column;
+                .faqinformations{
+                    float: left;
+                    width: 100%;
+                    h2{
+                        float: left;
+                        width: 100%;
+                        margin: 1rem 0;
+                        font-family: 'Sora', sans-serif;
+                        font-size: 14px;
+                        font-weight: 600;
+                        color: $font-black;
+                    }
+                    p{
+                        float: left;
+                        width: 100%;
+                        margin-bottom: 1rem;
+                        font-family: 'Sora', sans-serif;
+                        font-size: 14px;
+                        font-weight: 300;
+                        color: #2E3147;
+                    }
+                }
+                .supportiles{
+                    width: 18%;
+                    background: #ffffff;
+                    border: 1px solid #EAEDF2;
+                    height: 150px;
+                    display:flex;
+                    align-items: center;
+                    justify-content: center;
+                    border-radius: 10px;
+                    -webkit-border-radius: 10px;
+                    -moz-border-radius: 10px;
+                }
+            }
+        }
+    }
+    .accordion-two{
+        float: left;
+        width: 100%;
+        .accordion-wrapper{
+            #main {
+                margin: 50px 0;
+              }
+              
+              #main #faq .card {
+                margin-bottom: 10px;
+                border: 0;
+                border: 1px solid #DCE0E8;
+                border-radius:8px;
+                -webkit-border-radius:8px;
+                -moz-border-radius:8px;
+              }
+              
+              #main #faq .card .card-header {
+                border: 0;
+                -webkit-box-shadow: 0 0 20px 0 rgba(213, 213, 213, 0.5);
+                        box-shadow: 0 0 20px 0 rgba(213, 213, 213, 0.5);
+                border-radius: 2px;
+                padding: 0;
+              }
+              
+              #main #faq .card .card-header .btn-header-link {
+                color: $font-white;
+                display: block;
+                text-align: left;
+                background: $font-white;
+                color: #222;
+                padding: 20px;
+              }
+              
+              #main #faq .card .card-header .btn-header-link:after {
+                content: "\f107";
+                font-family: 'Font Awesome 5 Free';
+                font-weight: 900;
+                float: right;
+              }
+              
+              #main #faq .card .card-header .btn-header-link.collapsed {
+                background: $font-white;
+                color: $font-black;
+              }
+              
+              #main #faq .card .card-header .btn-header-link.collapsed:after {
+                content: "\f106";
+              }
+              
+              #main #faq .card .collapsing {
+                background: $font-white;
+                line-height: 30px;
+              }
+              
+              #main #faq .card .collapse {
+                border: 0;
+              }
+              
+              #main #faq .card .collapse.show {
+                background: $font-white;
+                line-height: 30px;
+                color: #222;
+              }
+        }
+    }
+}

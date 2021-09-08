@@ -1,0 +1,76 @@
+/**
+ * @file
+ * Countfigures styles
+ */
+ @import '../../css/variables';
+ @import '../../css/mixin';
+.navigation-wrapper{
+    .custom-navigation{
+        background: transparent;
+        .navbar-brand{
+            img{
+                width: 185px;
+            }
+        }
+        .navbar-collapse{
+            .navbar-nav{
+                .nav-item{
+                    a{
+                        font-size: 14px;
+                        color: #ffffff;
+                        padding: 0.5rem 1.5rem;
+                    }
+                }
+            }
+        }
+    }
+    .scrolled {
+        background-color: #fff !important;
+        transition: background-color 200ms linear;
+        box-shadow: 0px 12px 24px #0000000D;
+    }
+    
+    
+    .navbar.fixed-top.custom-navigation{
+        .scroll-logo{
+            display: none;
+        }
+        .nonscroll-logo{
+            display: block;
+        }
+    }
+   
+    .navbar.fixed-top.custom-navigation.scrolled{
+        .nonscroll-logo{
+            display: none;
+        }
+        .scroll-logo{
+            display: block;
+        }
+        .navbar-nav{
+            .nav-link{
+                color: $background-darkblue;
+            }
+        }
+    } 
+    .navbar.fixed-top.custom-navigation.scrolled .navbar-nav .active>.nav-link, 
+    .navbar.fixed-top.custom-navigation.scrolled .navbar-nav .nav-link.active, 
+    .navbar.fixed-top.custom-navigation.scrolled .navbar-nav .nav-link.show, 
+    .navbar.fixed-top.custom-navigation.scrolled .navbar-nav .show>.nav-link{
+        color: $background-darkblue;
+    }
+    .navbar.fixed-top.custom-navigation.scrolled .fordivision::after{
+        background: #ccc;
+    }
+    
+    .navbar.fixed-top.custom-navigation .navbar-nav .nav-item.dropdown a.dropdown-item{
+        color: #292929;
+    }
+    .headerdropdown{
+        li{
+            a{
+                color: #292929 !important;
+            }
+        }
+    }
+}

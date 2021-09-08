@@ -1,0 +1,10 @@
+@mixin borderadius($val){
+    border-radius: $val;
+    -webkit-border-radius: $val;
+    -moz-border-radius: $val;
+}
+@mixin sections{
+    float: left;
+    width: 100%;
+    padding: 3rem 0;
+}

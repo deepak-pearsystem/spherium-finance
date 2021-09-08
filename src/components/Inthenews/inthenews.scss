@@ -1,0 +1,125 @@
+/**
+ * @file
+ * Countfigures styles
+ */
+ @import '../../css/variables';
+ @import '../../css/mixin';
+
+.spheriuminews-wrapper{
+    @include sections;
+    margin-top: -18rem;
+    .heading{
+        color: $font-white;
+    }
+    .carouselinews-mask{
+        float: left;
+        width: 100%;
+        .innews-carousel{
+            .owl-stage-outer{
+                float: left;
+                width: 100%;
+                margin: 1rem 0 3rem 0;
+                padding-top: 1rem;
+                .item{
+                    float: left;
+                    width: 100%;
+                    padding: 1rem 1.5rem;
+                    background: #ffffff;
+                    border: 1px solid #EAEDF2;
+                    overflow: hidden;
+                    transition: transform 250ms;
+                    border-radius: 10px;
+                    -webkit-border-radius: 10px;
+                    -moz-border-radius: 10px;
+                    &:hover{
+                        cursor: pointer;
+                        transform: translateY(-10px);
+                    }
+                    &:hover .learmore-btn{
+                        opacity: 1;
+                        text-decoration: none;
+                        position:relative;
+                        top:8px;
+                        left:0px;
+                        transition: all 500ms;
+                    }
+                    .image-wrapper{
+                        float: left;
+                        width: 100%;
+                        height: 75px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: flex-start;
+                        img{
+                            width: 130px;
+                        }
+                    }
+                    p{
+                        float: left;
+                        width: 100%;
+                        margin: 0.5rem 0;
+                        a{
+                            float: left;
+                            width: 100%;
+                            font-size: 16px;
+                            font-weight: normal;
+                            height: 75px;
+                            overflow: hidden;
+                            color: #181A2B;
+                            &:hover{
+                                text-decoration: none;
+                            }
+                        }
+                    }
+                    .learmore-btn{
+                        font-size: 14px;
+                        font-weight: 500;
+                        margin: 0.5rem 0;
+                        color: #000B89;
+                        padding-right: 20px;
+                        opacity: 0;
+                        left:-50px;
+                        position:relative;
+                        top:10px;
+                        transition: all 600ms;
+                        
+                    }
+                    
+                    // .tradetype-wrapper .card:hover .learmore-btn{
+                    //     opacity: 1;
+                    //     position:relative;
+                    //     top:8px;
+                    //     left:0px;
+                    //     transition: all 600ms;
+                    // }
+                    a{
+                        float: left;
+                        font-size: 14px;
+                        font-weight: normal;
+                        color: #000B89;
+                        img{
+                            float: right;
+                            width: 15px;
+                            margin: 4px 0 0 5px;
+                        }
+                    }
+                   
+                }
+            }
+   
+            .owl-dots .owl-dot span {
+                width: 12px;
+                height: 12px;
+                margin: 5px 3px;
+                background: #E7E9F3;
+                display: block;
+                -webkit-backface-visibility: visible;
+                transition: opacity .2s ease;
+                border-radius: 30px;
+            }
+            .owl-dots .owl-dot.active span, .owl-dots .owl-dot:hover span {
+                background: $background-darkblue;
+            }
+        }
+    }
+}

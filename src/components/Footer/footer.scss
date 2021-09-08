@@ -1,0 +1,106 @@
+/**
+ * @file
+ * Countfigures styles
+ */
+ @import '../../css/variables';
+ @import '../../css/mixin';
+
+.footer-wrapper{
+    float: left;
+    width: 100%;
+    background:  $background-darkblue;
+    padding: 3rem 0 0 0;
+    .logofooterinfo{
+        float: left;
+        width: 100%;
+        img{
+            width: 160px; 
+        }
+        p{
+            float: left;
+            width: 100%;
+            padding-right: 1rem;
+            margin-top: 1.5rem;
+            font-size: 14px;
+            font-family: 'Proxima Nova Rg';
+            line-height: 23px;
+            font-weight: 200;
+            color: $font-white
+        }
+    }
+    .footersociallist {
+        float: left;
+        width: 100%;
+        margin-top: 1.4rem;
+        a{
+            svg {
+                fill:$font-white;
+                transition: all 0.5s ease;
+                &:hover{
+                    fill: $footericons;
+                    transition: all 0.5s ease;
+                }
+            }
+        }
+    }
+    .footermenulist{
+        float: left;
+        width: 100%;
+        padding-left: 4rem;
+        h2{
+            font-size: 16px;
+            font-family: 'Proxima Nova Rg';
+            font-weight: normal;
+            color: $font-tab;
+        }
+        ul{
+            float: left;
+            width: 100%;
+            padding: 0px;
+            margin: 0px;
+            list-style: none;
+            li{
+                a{
+                    font-size: 16px;
+                    font-family: 'Proxima Nova Rg';
+                    font-weight: normal;
+                    color: $font-white;
+                    margin-top: 0.7rem;
+                }
+            }   
+        }
+        
+    }
+    .footercopyright-mask{
+        float: left;
+        width: 100%;
+        border-top: 1px solid $font-tab;
+        margin-top: 5rem;
+        .copyrightext{
+            float: left;
+            width: 100%;
+            text-align: center;
+            font-size: 14px;
+            font-family: 'Poppins', sans-serif;
+            font-weight: normal;
+            color: $font-tab;
+            padding: 1.1rem 0;
+        }
+    }
+    .back-to-top {
+        position: fixed;
+        bottom: 25px;
+        right: 25px;
+        padding:3px 9px 7px 8px;
+        transition: all 0.5s ease;
+        border:1px solid #3544E9;
+        background: #3544E9;
+        display: none;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+    }
+
+ 
+    
+}

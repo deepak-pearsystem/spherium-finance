@@ -1,0 +1,104 @@
+/**
+ * @file
+ * Countfigures styles
+ */
+ @import '../../css/variables';
+ @import '../../css/mixin';
+
+.wordclassinvestor-wrapper{
+    //background:$background-secondary;
+    @include sections;
+    .wordinvestcell-mask{
+        float: left;
+        display: flex;
+        //overflow: hidden;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        margin: 3rem 0 2rem 0;
+        .wordinvestcell{
+            float: left;
+            width: 100%;
+            height: 100px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background:#fff;
+            padding: 0.5rem;
+            // margin: 1rem 0.5rem;
+            border:1px solid #DBDBDB;
+            transition: all 0.5s ease;
+            position: relative;
+            
+            &:hover{
+                transition: all 0.5s ease;
+            }
+            &::after{
+                float: left;
+                content: '';
+                background: #ffffff;
+                width: 15px;
+                height: 15px;
+                position: absolute;
+                z-index: 9;
+                right: -8px;
+                bottom: -8px;
+                border-radius: 50%;
+            }
+            img{
+                width: 100%;
+                transition: all 0.5s ease;
+                filter: grayscale(100%);
+            }
+        }
+        .notopborder{
+            border-top: medium none;
+        }
+        .nobottomborder{
+            border-bottom: medium none;
+        }
+        .noleftborder{
+            border-left: medium none;
+        }
+        .norightborder{
+            border-right: medium none;
+        }
+    }
+
+    .animation-tiles{
+        float: left;
+        width: 100%;
+        overflow: hidden;
+        .hover01 {
+            figure{
+                margin: 0px;
+                img{
+                    -webkit-transform: scale(0.7);
+                    transform: scale(0.7);
+                    -webkit-transition: all 0.5s ease;
+                    transition: all 0.5s ease;
+                    &:hover{
+                        filter: grayscale(0%);
+                        -webkit-transform: scale(1);
+                        transform: scale(1);
+                        -webkit-transition: all 0.5s ease;
+                        transition: all 0.5s ease;
+                    }
+                }
+            }
+        }
+        
+    }
+    /* Zoom In #1 */
+    // .hover01 figure img {
+    //     -webkit-transform: scale(0.7);
+    //     transform: scale(0.7);
+    //     -webkit-transition: .3s ease-in-out;
+    //     transition: .3s ease-in-out;
+    // }
+    // .hover01 figure:hover img {
+    //     -webkit-transform: scale(1);
+    //     transform: scale(1);
+    // }
+
+}

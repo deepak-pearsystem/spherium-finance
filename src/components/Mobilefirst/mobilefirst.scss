@@ -1,0 +1,66 @@
+/**
+ * @file
+ * Countfigures styles
+ */
+ @import '../../css/variables';
+ @import '../../css/mixin';
+ .mobilefirst-wrapper {
+    @include sections;
+    .mobilefirst-mask{
+        float: left;
+        width: 100%;
+        background:url('../../img/footertopbg.png') no-repeat;
+        background-position: center center;
+        background-size: cover;
+        margin-bottom: 3rem;
+        @include borderadius(10px);
+        .mobilefirst-left{
+            float: left;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            p{
+                float: left;
+                width: 78%;
+                font-size: 40px;
+                font-weight: normal;
+                color: $font-white;
+            }
+            .banneractonbtn{
+                float: left;
+                width: 78%;
+                margin-top: 2rem;
+                .googlepay{
+                    float: left;
+                    min-width: 166px;
+                    height: 50px;
+                    margin-right: 15px;
+                    background: url('../../img/google.svg')no-repeat;
+                    background-size: cover;
+                    border-radius: 12px;
+                    -webkit-border-radius: 12px;
+                    -moz-border-radius: 12px;
+                }
+                .applestore{
+                    float: left;
+                    min-width: 166px;
+                    height: 50px;
+                    margin-right: 15px;
+                    background: url('../../img/apple.svg')no-repeat;
+                    background-size: cover;
+                    border-radius: 12px;
+                    -webkit-border-radius: 12px;
+                    -moz-border-radius: 12px;
+                }
+            }
+        }
+        .mobilefirst-right{
+            img{
+                margin-top: -6rem;
+            }
+        }
+    }
+ }

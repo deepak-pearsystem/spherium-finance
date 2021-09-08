@@ -1,0 +1,169 @@
+@font-face {
+  font-family: 'Proxima Nova Bl';
+  src: url('../webfonts/ProximaNova-Black.eot');
+  src: url('../webfonts/ProximaNova-Black.eot?#iefix') format('embedded-opentype'),
+      url('../webfonts/ProximaNova-Black.woff2') format('woff2'),
+      url('../webfonts/ProximaNova-Black.woff') format('woff'),
+      url('../webfonts/ProximaNova-Black.ttf') format('truetype'),
+      url('../webfonts/ProximaNova-Black.svg#ProximaNova-Black') format('svg');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Proxima Nova Rg';
+  src: url('../webfonts/ProximaNova-Bold.eot');
+  src: url('../webfonts/ProximaNova-Bold.eot?#iefix') format('embedded-opentype'),
+      url('../webfonts/ProximaNova-Bold.woff2') format('woff2'),
+      url('../webfonts/ProximaNova-Bold.woff') format('woff'),
+      url('../webfonts/ProximaNova-Bold.ttf') format('truetype'),
+      url('../webfonts/ProximaNova-Bold.svg#ProximaNova-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Proxima Nova Th';
+  src: url('../webfonts/ProximaNova-Extrabld.eot');
+  src: url('../webfonts/ProximaNova-Extrabld.eot?#iefix') format('embedded-opentype'),
+      url('../webfonts/ProximaNova-Extrabld.woff2') format('woff2'),
+      url('../webfonts/ProximaNova-Extrabld.woff') format('woff'),
+      url('../webfonts/ProximaNova-Extrabld.ttf') format('truetype'),
+      url('../webfonts/ProximaNova-Extrabld.svg#ProximaNova-Extrabld') format('svg');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Proxima Nova Rg';
+  src: url('../webfonts/ProximaNova-Regular.eot');
+  src: url('../webfonts/ProximaNova-Regular.eot?#iefix') format('embedded-opentype'),
+      url('../webfonts/ProximaNova-Regular.woff2') format('woff2'),
+      url('../webfonts/ProximaNova-Regular.woff') format('woff'),
+      url('../webfonts/ProximaNova-Regular.ttf') format('truetype'),
+      url('../webfonts/ProximaNova-Regular.svg#ProximaNova-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Proxima Nova Th';
+  src: url('../webfonts/ProximaNovaT-Thin.eot');
+  src: url('../webfonts/ProximaNovaT-Thin.eot?#iefix') format('embedded-opentype'),
+      url('../webfonts/ProximaNovaT-Thin.woff2') format('woff2'),
+      url('../webfonts/ProximaNovaT-Thin.woff') format('woff'),
+      url('../webfonts/ProximaNovaT-Thin.ttf') format('truetype'),
+      url('../webfonts/ProximaNovaT-Thin.svg#ProximaNovaT-Thin') format('svg');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+/**/
+@font-face {
+  font-family: 'Clear Sans';
+  src: url('../webfonts/ClearSans-Bold.eot');
+  src: url('../webfonts/ClearSans-Bold.eot?#iefix') format('embedded-opentype'),
+      url('../webfonts/ClearSans-Bold.woff2') format('woff2'),
+      url('../webfonts/ClearSans-Bold.woff') format('woff'),
+      url('../webfonts/ClearSans-Bold.ttf') format('truetype'),
+      url('../webfonts/ClearSans-Bold.svg#ClearSans-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Clear Sans';
+  src: url('../webfonts/ClearSans-BoldItalic.eot');
+  src: url('../webfonts/ClearSans-BoldItalic.eot?#iefix') format('embedded-opentype'),
+      url('../webfonts/ClearSans-BoldItalic.woff2') format('woff2'),
+      url('../webfonts/ClearSans-BoldItalic.woff') format('woff'),
+      url('../webfonts/ClearSans-BoldItalic.ttf') format('truetype'),
+      url('../webfonts/ClearSans-BoldItalic.svg#ClearSans-BoldItalic') format('svg');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Clear Sans';
+  src: url('../webfonts/ClearSans-Thin.eot');
+  src: url('../webfonts/ClearSans-Thin.eot?#iefix') format('embedded-opentype'),
+      url('../webfonts/ClearSans-Thin.woff2') format('woff2'),
+      url('../webfonts/ClearSans-Thin.woff') format('woff'),
+      url('../webfonts/ClearSans-Thin.ttf') format('truetype'),
+      url('../webfonts/ClearSans-Thin.svg#ClearSans-Thin') format('svg');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Clear Sans';
+  src: url('../webfonts/ClearSans-Light.eot');
+  src: url('../webfonts/ClearSans-Light.eot?#iefix') format('embedded-opentype'),
+      url('../webfonts/ClearSans-Light.woff2') format('woff2'),
+      url('../webfonts/ClearSans-Light.woff') format('woff'),
+      url('../webfonts/ClearSans-Light.ttf') format('truetype'),
+      url('../webfonts/ClearSans-Light.svg#ClearSans-Light') format('svg');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Clear Sans';
+  src: url('../webfonts/ClearSans-Italic.eot');
+  src: url('../webfonts/ClearSans-Italic.eot?#iefix') format('embedded-opentype'),
+      url('../webfonts/ClearSans-Italic.woff2') format('woff2'),
+      url('../webfonts/ClearSans-Italic.woff') format('woff'),
+      url('../webfonts/ClearSans-Italic.ttf') format('truetype'),
+      url('../webfonts/ClearSans-Italic.svg#ClearSans-Italic') format('svg');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Clear Sans';
+  src: url('../webfonts/ClearSans-Medium.eot');
+  src: url('../webfonts/ClearSans-Medium.eot?#iefix') format('embedded-opentype'),
+      url('../webfonts/ClearSans-Medium.woff2') format('woff2'),
+      url('../webfonts/ClearSans-Medium.woff') format('woff'),
+      url('../webfonts/ClearSans-Medium.ttf') format('truetype'),
+      url('../webfonts/ClearSans-Medium.svg#ClearSans-Medium') format('svg');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Clear Sans';
+  src: url('../webfonts/ClearSans.eot');
+  src: url('../webfonts/ClearSans.eot?#iefix') format('embedded-opentype'),
+      url('../webfonts/ClearSans.woff2') format('woff2'),
+      url('../webfonts/ClearSans.woff') format('woff'),
+      url('../webfonts/ClearSans.ttf') format('truetype'),
+      url('../webfonts/ClearSans.svg#ClearSans') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Clear Sans';
+  src: url('../webfonts/ClearSans-MediumItalic.eot');
+  src: url('../webfonts/ClearSans-MediumItalic.eot?#iefix') format('embedded-opentype'),
+      url('../webfonts/ClearSans-MediumItalic.woff2') format('woff2'),
+      url('../webfonts/ClearSans-MediumItalic.woff') format('woff'),
+      url('../webfonts/ClearSans-MediumItalic.ttf') format('truetype'),
+      url('../webfonts/ClearSans-MediumItalic.svg#ClearSans-MediumItalic') format('svg');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}

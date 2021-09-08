@@ -1,0 +1,1128 @@
+/*responsive layout*/
+@media (min-width: 1601px) and (max-width: 1680px) {}
+@media (min-width: 1441px) and (max-width: 1600px) {}
+@media (min-width: 1367px) and (max-width: 1440px) {}
+@media (min-width: 1281px) and (max-width: 1366px) {}
+@media (min-width: 1024px) and (max-width: 1280px) {
+    .supportedwall-wrapper .tabcontainer #pills-tabContent .tabinnerinfo-mask .supportiles{
+        padding:1.1rem;
+    }
+    .auditedverified-wrapper .auditedverified-cell{
+        height: 140px;
+        padding:0 2rem
+    }
+    .footer-wrapper .footermenulist{
+        padding-left: 0px;
+    }
+    .footersociallist{
+        .navbar-brand{
+            margin-right: 0.5rem;
+        }
+    }
+    .container {
+        max-width: 95% !important;
+        margin: 0 auto !important;
+    }
+    .cmspages-wrapper{
+        .hyperswap{
+            .whatspheriummask{
+                .seperaterow{
+                    &::after{
+                        margin-left: -15px !important;
+                    }
+                }
+            }
+            .customtwocard{
+                width: 100% !important;
+                .card{
+                    h2{
+                        width: 60% !important;
+                        font-size: 21px !important;
+                        line-height: 30px !important;
+                    }
+                }
+            }
+        }
+    } 
+    .termsofservice-wrapper{
+        .side-bar{
+            #wrapper{
+                #sticky.stick{
+                    width: 22% !important;
+                }
+            }
+        }
+    }   
+    .wallet-wrapper{
+        .advantages-tiles{
+            .card{
+                img{
+                    height: 100% !important;
+                    border-radius: 10px 0 0 10px !important;
+                }
+                .cardinfo{
+                    height: auto !important;
+                    width: 90% !important;
+                    padding: 1.5rem 0 !important;
+                }
+            }
+        }
+    } 
+    .bannersvg-wrapper{
+        .bannerbottom{
+            .bottom-statics{
+                .registernow-btn{
+                    min-width: auto;
+                    padding: 0px 0.8rem;
+                    font-size: 14px;
+                }
+                .weare{
+                    h2{
+                        font-size: 21px;
+                    }
+                    p {
+                        font-size: 14px;
+                        a{
+                            font-size: 14px;
+                        }
+                    }
+                } 
+            }
+        }
+    }  
+    .bannerbottom{
+        .leftdivbg{
+            h2{
+                font-size: 18px;
+                line-height: 26px;
+                padding-top: 28px;
+            }
+        }
+        .rightdivbg{
+            img{
+                width: 100px;
+            }
+        }
+    }  
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+    .banner-wrapper .contentover-wrapper .bannercontent-wrapper .bannertoptext{
+        width: 375px;
+        font-size: 21px;
+        line-height: 30px;
+    }
+    .banner-wrapper .contentover-wrapper .bannercontent-wrapper .bannerbtn-mask {
+        margin: 2rem 0;
+    }
+    .banner-wrapper .contentover-wrapper .bannercontent-wrapper .bannerbottom .bottom-statics .counter-value{
+        height: 80px;
+    }
+    .banner-wrapper .contentover-wrapper .bannercontent-wrapper .bannerbottom .bottom-statics .counter-value h2{
+        font-size: 21px;
+        line-height: 25px;
+    }
+    .banner-wrapper .contentover-wrapper .bannercontent-wrapper .bannerbottom .bottom-statics .counter-value p{
+        font-size: 13px;
+    }
+    .banner-wrapper .contentover-wrapper .bannercontent-wrapper .bannerbottom .bottom-statics .counter-value::after{
+        content: '';
+        height: 60px;
+        width: 2px;
+        background: #ffffff;
+        float: right;
+        position: relative;
+        top: -75px;
+        right: -30px;
+    }
+    .footer-wrapper .footermenulist{
+        padding-left: 0px;
+    }
+    .footer-wrapper .footermenulist h2{
+        font-size: 13px;
+    }
+    .footer-wrapper .footermenulist ul li a{
+        font-size: 12px;
+    }
+    .footer-wrapper .logofooterinfo p{
+        font-size: 13px;
+    }
+    .footersociallist{
+        .navbar-brand{
+            margin-right: 3px;
+        }
+    }
+    .footer-wrapper .footercopyright-mask {
+        margin-top: 3rem;
+    }
+    .footer-wrapper .footersociallist{
+        margin-top: 0rem;
+    }
+    .auditedverified-wrapper .auditedverified-cell{
+        height: 130px;
+        padding: 1rem 1.5rem;
+    }
+    .wordclassinvestor-wrapper .wordinvestcell{
+        height: 80px;
+        padding: 0.5rem;
+    }
+    .wordclassinvestor-wrapper{
+        padding: 1rem 0 3rem;
+    }
+    .supportedwall-wrapper .tabcontainer #pills-tabContent .tabinnerinfo-mask .supportiles{
+        padding: 0px 1rem;
+    }
+    .spheriumforyou-wrapper .card .card-body h5{
+        font-size: 16px;
+        color: #000B89;
+        line-height: 23px;
+    }
+    .spheriumforyou-wrapper .card .card-body p{
+        font-size: 13px;
+        height: 95px;
+        overflow: hidden;
+    }
+    .navbar-light .navbar-toggler{
+        border-color:transparent;
+    }
+    .custom-navigation{
+        // background: #1A25A7 !important;
+    }
+    #navbarSupportedContent{
+        ul{
+            padding-top: 1rem;
+        }
+    }
+    .footermenulist{
+        padding-left: 1rem !important;
+    }
+    .footer-wrapper .footermenulist ul li a{
+        font-size: 14px !important;
+    }
+    .mobilefirst-wrapper .mobilefirst-mask .mobilefirst-left p {
+        float: left;
+        width: 90% !important;
+        font-size: 24px !important;
+        line-height: 35px !important;
+        font-weight: normal;
+        color: #ffffff;
+    }
+    .mobilefirst-wrapper .mobilefirst-mask .mobilefirst-left .banneractonbtn {
+        float: left;
+        width: 90% !important;  
+        margin-top: 2rem;
+    }
+    .bannersvg-wrapper .bannerinfoleft h2{
+        padding: 0 0rem 1rem 0 !important;
+        font-size: 35px;
+        padding-bottom: 0px;
+    }
+    .bannersvg-wrapper .bannerinfoleft .banneractonbtn{
+        width: 100%;
+    }
+    .bannersvg-wrapper .bannerinfoleft .banneractonbtn .googlepay{
+        min-width: 45% !important;
+        margin: 0px 5px !important;
+        background-size: 153px !important; 
+    }
+    .bannersvg-wrapper .bannerinfoleft .banneractonbtn .applestore{
+        min-width: 45% !important;
+        margin: 0px 5px !important;
+        background-size: 153px !important;
+    }
+    .bannersvg-wrapper .bannerbottom .bottom-statics .counter-value::after{
+        top: -65px !important;
+        right: -28px !important;
+    }
+    .navbar-light .navbar-toggler-icon {
+        background: url('../img/menuclose-white.svg') no-repeat !important;
+    }
+    .navbar-light .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon{
+        background: url('../img/menuopen-white.svg') no-repeat !important;
+    }
+
+    .navbar-light.scrolled .navbar-toggler-icon {
+        background: url('../img/menuclose-black.svg') no-repeat !important;
+    }
+    .navbar-light.scrolled .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon{
+        background: url('../img/menuopen-black.svg') no-repeat !important;
+    }
+    .container {
+        max-width: 95% !important;
+        margin: 0 auto !important;
+    }
+    .mobilefirst-wrapper{
+          
+        .mobilefirst-mask{
+            .mobilefirst-left{
+                .banneractonbtn{
+                    .applestore{
+                        margin-right: 0px !important;
+                    }
+                }
+            }   
+            .mobilefirst-right{
+                img{
+                    margin-top: -4rem !important;
+                }
+            }
+        }
+    }   
+    .cmspages-wrapper{
+        .hyperswap{
+            .customtwocard{
+                width: 100% !important;
+                .card{
+                    h2{
+                        width: 60% !important;
+                        font-size: 21px !important;
+                        line-height: 30px !important;
+                    }
+                }
+            }
+        }
+    } 
+    .whatspheriummask{
+        margin: 1rem 0 2rem 0 !important;
+        .card{
+            img{
+                margin: 0 auto;
+            }
+            h3{
+                text-align: center;
+            }
+        }
+        .seperaterow{
+            width: 100%;
+            height: 40px;
+            margin: 0 auto;
+            &::after{
+                float: left !important;
+                position: inherit !important;
+                width: 100% !important;
+                margin: 1rem 0 0 0 !important;
+                height: 2px !important;
+            }
+        }
+    }
+    .spherecomp-wrapper{
+        .sphadvantage{
+            &__card{
+                height:  auto !important;
+            }
+        }
+        .howorks{
+            &__wrapper{
+                width: 90% !important;
+            }
+            &__images--web{
+                margin-top: 2rem;
+            }
+            &__info{
+                height: 340px !important;
+            }
+        }
+    } 
+    .cmspages-wrapper{
+        .hover12{
+            figure{
+                width: 100% !important;
+            }
+        }
+    }  
+    .termsofservice-wrapper{
+        .side-bar{
+            width: 33% !important;
+            float: left;
+            #wrapper{
+                #sticky{
+                    &.stick{
+                        width: 31% !important;
+                    }
+                }
+            }
+        }
+        .main-content{
+            margin-left:33% !important;
+        }
+    }
+    .wallet-wrapper{
+        .advantages-tiles{
+            .card{
+                img{
+                    height: 100% !important;
+                    border-radius: 10px 0 0 10px !important;
+                }
+                .cardinfo{
+                    height: auto !important;
+                    width: 95% !important;
+                    padding: 1.5rem 0 !important;
+                }
+            }
+        }
+    } 
+    .governance-wrapper{
+        .container{
+            max-width: 92% !important;
+            margin: 1rem !important;
+            margin: 0 auto !important;
+        }
+    }
+    .tokenomics-wrapper{
+        .container{
+            max-width: 92% !important;
+            margin: 1rem !important;
+            margin: 0 auto !important;
+            .customcanvas{
+                width: 50% !important;
+                canvas#myChart {
+                    width: 100% !important;
+                    height: 100% !important;
+                }
+            }
+            .customcanvas-value{
+                width: 50% !important;
+            }
+        }
+    }
+    .contact-wrapper{
+        .contact-left{
+            float: left;
+            width: 100% !important;
+            .contactimgsection{
+                height: 50vh !important;
+                h2{
+                    width: 70% !important;
+                    text-align: center;
+                }
+                p{
+                    width: 70% !important;
+                    text-align: center;
+                }
+            }
+        }
+        .contact-right{
+            float: left;
+            width: 100% !important;
+            .contactformsection{
+                height:  auto !important;
+                padding: 2rem 0 !important;
+                .contactform{
+                    h2{
+                        margin-bottom: 2rem !important;
+                    }
+                    .formbtnmask{
+                        margin-top: 1rem !important;
+                    }
+                    .enquirymask{
+                        margin-top: 2rem !important;
+                    }
+                }
+            }
+        }
+    }
+    .documentation-wrapper {
+        .documentation-cms{
+            // .nav-pills{
+            //     margin-top: 1rem;
+            // }
+            .tab-content{
+                .tebdetail-wrapper{
+                    padding: 2rem 0 0 0 !important;
+                    .detailsimg{
+                        margin: 1rem 0 1.5rem 0 !important;
+                    }
+                }
+            }
+        }
+    }  
+    .allinoneapp-wrapper{
+        .countsections{
+            p{
+                font-size: 14px !important;
+            }
+        }
+    } 
+    .bannersvg-wrapper{
+        .bannerinfoleft{
+            height: calc(100vh - 265px);
+        }
+    } 
+    .bannerbottom{
+        .leftdivbg{
+            h2{
+                font-size: 18px;
+                line-height: 26px;
+            }
+        }
+        .rightdivbg{
+            img{
+                width: 100px;
+            }
+        }
+    } 
+}
+/*mobile vertical layout*/
+@media only screen and (max-width: 767px) {
+    .navbar-light .navbar-toggler-icon {
+        background: url('../img/menuclose-white.svg') no-repeat !important;
+    }
+    .navbar-light .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon{
+        background: url('../img/menuopen-white.svg') no-repeat !important;
+    }
+
+    .navbar-light.scrolled .navbar-toggler-icon {
+        background: url('../img/menuclose-black.svg') no-repeat !important;
+    }
+    .navbar-light.scrolled .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon{
+        background: url('../img/menuopen-black.svg') no-repeat !important;
+    }
+
+
+   
+    .banner-wrapper .contentover-wrapper{
+        display: none;
+    }
+    .banner-wrapper .contentover-wrapper .bannercontent-wrapper .bannertoptext{
+        width: 100%;
+    }
+    .spheriumforyou-wrapper{
+        padding: 1rem 0;
+    }
+    .commonpagetitle h2 {
+        margin: 1rem 0;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .oneplateform-wrapper{
+        padding: 1rem;
+        p{
+            font-size: 14px;    
+            line-height: 22px;
+        }
+    }
+    .oneplateform-wrapper .accordion-wrapper #accordionExample .card .card-body .accordion-info-left{
+        width: 100%;
+    }
+    .accordion-image-right{
+        padding-top: 2.5rem;
+        img{
+            width: 125px;
+        }
+    } 
+    .supportedwall-wrapper .tabcontainer #pills-tabContent .tabinnerinfo-mask{
+        flex-direction: column;
+    }
+    .supportedwall-wrapper .tabcontainer #pills-tabContent .tabinnerinfo-mask .supportiles{
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+    .auditedverified-wrapper .auditedverified-cell{
+        height: 120px;
+    }
+    .spheriuminews-wrapper{
+        padding: 1rem 0;
+    }
+    .spheriuminews-wrapper .carouselinews-mask .innews-carousel .owl-stage-outer{
+        margin: 0 0 1rem 0 !important;
+    }
+    .footer-wrapper .footersociallist{
+        text-align: center;
+        margin: 0rem 0 1rem 0;
+    }
+    .footer-wrapper .footermenulist{
+        padding-left: 0px;
+        margin: 1rem 0;
+    }
+    .footer-wrapper .footercopyright-mask {
+        margin-top: 1rem;
+    }
+    #ocScreencapVideo {
+        margin-top: 70px;
+    }
+    // .navbar-light .navbar-toggler-icon{
+    //     background-image: url('../img/menu-white.png') no-repeat !important;
+    //     width: 23px;
+    //     height: 23px;
+    // }
+    .navbar-light .navbar-toggler{
+        border-color:transparent;
+    }
+    .custom-navigation{
+        background: #1A25A7 !important;
+    }
+    #navbarSupportedContent{
+        ul{
+            padding-top: 1rem;
+        }
+    }
+    .bannersvg-wrapper .bannerinfoleft .banneractonbtn .googlepay{
+        margin-right: 5px;
+    }
+    
+    .bannersvg-wrapper .bannerinfoleft .banneractonbtn .applestore{
+        margin: 0px 0px 0px 5px; 
+    }
+    .bannersvg-wrapper .bannerinfoleft h2{
+        font-size: 25px;
+        line-height: 40px;
+        padding: 0 0rem 1rem 0;
+    }
+    .bannersvg-wrapper .bannerbottom .bottom-statics .counter-value h2 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .bannersvg-wrapper .bannerbottom .bottom-statics .counter-value p {
+        text-align: center;
+        float: none;
+        margin: 0 auto;
+        width: 95%;
+        font-size: 11px;
+    }
+    .bannersvg-wrapper .bannerbottom .bottom-statics .counter-value::after,
+    .bannersvg-wrapper .bannerbottom .bottom-statics .counter-value:last-child:after{
+        height: 70px;
+        top: -60px;
+        right: -7px;
+    }
+    .bannersvg-wrapper .bannerimgright{
+        display: none;
+    }
+    .countsections{
+        margin-bottom: 1rem;
+        height: 115px !important;
+    }
+    .countsectionsmask{
+        padding: 2rem 0;
+        background-size: cover !important;
+        background-position: center center !important;
+    }
+    .meansforyou-wrapper .twocoloumlayoutleft .information-left h2 {
+        text-align: center !important;
+        font-size: 30px !important;
+    }
+    .meansforyou-wrapper .twocoloumlayoutright .information-right h2{
+        text-align: center !important;
+        font-size: 30px !important;
+        margin-top: 2rem;
+    }
+    .meansforyou-wrapper .twocoloumlayoutleft .information-left p{
+        text-align: center !important;
+        font-size: 18px !important;
+    }
+    .meansforyou-wrapper .twocoloumlayoutright .information-right p{
+        text-align: center !important;
+        font-size: 18px !important;
+    }
+    .meansforyou-wrapper .twocoloumlayoutleft{
+        background-size: cover;
+    }
+    .supportedwall-wrapper .tabcontainer #pills-tab .nav-item {
+        margin: 0px 0px !important;
+    }
+    .supportedwall-wrapper .tabcontainer #pills-tab .nav-item .nav-link{
+        font-size: 15px !important;
+    }
+    .supportedwall-wrapper .tabcontainer #pills-tabContent .tabinnerinfo-mask .supportiles{
+        width: 100% !important;
+    }
+    .heading{
+        font-size: 22px !important;
+        padding: 1rem 0 1.5rem 0 !important;
+    }
+    .countfigures-wrapper,
+    .allinoneapp-wrapper,
+    .meansforyou-wrapper,
+    .spheriuminews-wrapper,
+    .mobilefirst-wrapper,
+    .hyperswap,
+    .spherecomp-wrapper,
+    .howorks{
+        padding: 1rem 0 !important;
+    }
+    .allinoneapp-wrapper{
+        .countsections{
+            height: 180px !important;
+        }
+    } 
+    .twocoloumlayoutleft{
+        height: 600px !important;
+        background-size: cover !important;
+        img{
+            width: 15rem;
+            margin-top: 2rem;
+        }
+    }
+    .twocoloumlayoutright{
+        height: 525px !important;
+        background-size: cover !important;
+        img{
+            width: 15rem;
+            margin-top: 2rem;
+        }
+    }
+    .spheriuminews-wrapper
+    {
+        .heading{
+            color: #041153 !important;
+        }
+    }
+    .wordclassinvestor-wrapper .wordinvestcell-mask{
+        margin: 0rem 0 2rem 0 !important;
+    }
+    .wordinvestcell{
+        border:medium none !important;
+        border-bottom: 1px solid #DBDBDB !important;
+    }
+    .spheriuminews-wrapper{
+        margin-top: 0px !important;
+    }
+    .auditedverified-wrapper{
+        height: 1310px !important;
+    }
+    .w-100.d-flex.justify-content-center{
+        display: unset !important;
+    }
+    .mobilefirst-wrapper .mobilefirst-mask{
+        padding-top: 2rem;
+    }
+    .footer-wrapper .footermenulist{
+        padding-left: 0px !important;
+    }
+    .mobilefirst-right{
+        text-align: center;
+    }
+    .mobilefirst-wrapper .mobilefirst-mask .mobilefirst-right img {
+        margin-top: 0 !important;
+    }
+    .mobilefirst-wrapper .mobilefirst-mask .mobilefirst-left .banneractonbtn{
+        width: 100% !important;
+        margin: 1rem 0 !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .mobilefirst-wrapper .mobilefirst-mask .mobilefirst-left .banneractonbtn .googlepay{
+        min-width: 45% !important;
+        margin: 0px 5px !important;
+        background-size: 153px !important; 
+    }
+    .mobilefirst-wrapper .mobilefirst-mask .mobilefirst-left .banneractonbtn .applestore{
+        min-width: 45% !important;
+        margin: 0px 5px !important;
+        background-size: 153px !important;
+    }
+    .whatspheriummask{
+        margin: 1rem 0 2rem 0 !important;
+        .card{
+            img{
+                margin: 0 auto;
+            }
+            h3{
+                text-align: center;
+            }
+        }
+        .seperaterow{
+            width: 100%;
+            height: 40px;
+            margin: 0 auto;
+            &::after{
+                float: left !important;
+                position: inherit !important;
+                width: 100% !important;
+                margin: 1rem 0 0 0 !important;
+                height: 2px !important;
+            }
+        }
+    }
+    .cmspages-wrapper{
+        .hyperswap{
+            .customtwocard{
+                float: left;
+                width: 100% !important;
+                .card{
+                    h2{
+                        font-size: 20px !important;
+                        line-height: 28px !important;
+                    }
+                }
+            }
+        }
+    }  
+    .hyperswapadvantage-wrapper{
+        margin: 1rem 0 !important;
+    }
+    .spherecomp-wrapper{
+        .sphadvantage{
+            &__card{
+                height: auto !important;
+                margin-bottom: 1.5rem;
+                display: flex;
+                flex-direction: column;
+                img{
+                    margin: 0 auto !important;
+                }
+                h2{
+                    text-align: center;
+                }
+            }
+        }
+        .howorks{
+            &__wrapper{
+                width: 100% !important;
+                padding: 0px 15px;
+                margin: 0 auto !important;
+            }
+            &__info{
+                height: 270px !important;
+            }
+            &__images{
+                margin-top: 0 !important;
+            }
+            &__images--web{
+                display: none !important;
+            }
+            &__images--responsive{
+                display: block !important;
+                margin-bottom: 3rem;
+            }
+        }
+    }
+    .about-wrapper{
+        padding: 1rem 0 0 0 !important;
+        &__mission{
+            margin: 1rem 1rem 1rem 0.3rem !important;
+        }
+        &__description{
+            width: 100% !important;
+        }
+        &__whoweare{
+            margin-top: 1rem !important;
+            padding: 1rem 0 !important;
+        }
+        &__card{
+            margin-top: 1rem !important;
+            .animation-tiles{
+                figure {
+                    width: 100% !important;
+                    img{
+                        margin: 0 auto;
+                        width: 100% !important;
+                    }
+                }
+                
+            }
+        }  
+        &__name{
+            text-align: center !important;
+        } 
+        &__position{
+            text-align: center !important;
+        }
+        &__social{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding-bottom: 1rem !important;
+            border-bottom: 1px solid #E2E7F1;
+        }
+        &__advisors{
+            h4{
+                font-weight: bold !important;
+                margin: 1rem 0 1rem 0 !important;
+            }
+            padding: 1rem 0 !important;
+            .advisorsicons{
+                display: inherit !important;
+                align-items: inherit !important;
+                justify-content: inherit !important;
+                text-align: center;
+                .advisorsicon{
+                    margin: 2rem 0;
+                }
+            }
+        }
+    }
+    .termsofservice-wrapper,
+    .privacypolicy-wrapper{
+        &__section{
+            .side-bar {
+                width: 100% !important;
+                float: left;
+                top: 0;
+                position: inherit !important;
+                display: flex !important;
+                flex-direction: column !important;
+                align-items: center !important;
+                justify-content:inherit !important;
+                #wrapper{
+                    height:  auto !important;
+                    #sticky.stick{
+                        position: inherit !important;
+                        top: 0 !important;
+                        width: 100% !important;
+                    }
+                }
+            }
+        }
+        .main-content{
+            float: left;
+            margin: 1rem 0 0 0px !important;
+            width: 100% !important;
+            border:medium none !important;
+            section{
+                padding: 0px !important;
+            }
+        }
+    }
+    .cmspagesbanner{
+        text-align: center;
+    }
+
+    .wallet-wrapper{
+        .advantages-tiles{
+            .card{
+                float: left;
+                width: 92% !important;
+                border: 1px solid #EAEDF2;
+                border-radius: 10px !important;
+                margin: 1rem !important;
+                img{
+                    border-radius: 11px !important;   
+                }
+                .cardinfo{
+                    height: auto !important;
+                    padding: 1.5rem 0 !important;
+                }
+            }
+        }
+    } 
+
+    .faq-wrapper{
+        .container{
+            max-width: 92% !important;
+            margin: 1rem !important;
+            .accordion-wrapper{
+                #main{
+                    #faq{
+                        .card{
+                            .card-header{
+                                .btn-header-link{
+                                    &::after{
+                                        display: none;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }     
+        }
+    }
+
+    .governance-wrapper{
+        .container{
+            max-width: 92% !important;
+            margin: 1rem !important;
+        }
+    }
+
+    .tokenomics-wrapper{
+        padding: 3rem 0 0 0 !important;
+        .container{
+            max-width: 92% !important;
+            margin: 1rem !important;
+            .chart-wrapper{
+                margin: 2rem 0 1rem 0 !important;
+                .chart-inner{
+                    flex-direction: column;
+                    .customcanvas{
+                        width: 100% !important;
+                        canvas#myChart {
+                            width: 100% !important;
+                            height: 100% !important;
+                        }
+                    }
+                    .customcanvas-value{
+                        width: 100% !important;
+                        margin-top: 3rem;
+                    }
+                }
+            }
+            .infotable-wrapper{
+                margin: 2rem 0 2rem 0 !important;
+                .tableinfo{
+                    thead{
+                        tr{
+                            th{
+                                font-size: 13px;
+                            }
+                        }
+                    }  
+                    tbody{
+                        tr{
+                            &:last-child{
+                                td{
+                                    &:first-child{
+                                        padding-right: 1rem;
+                                    }
+                                }
+                            }
+                            td{
+                                font-size: 13px;
+                            }
+                        }
+                    }
+                }
+            }    
+            
+        }
+    } 
+    
+    .documentation-wrapper {
+        .documentation-cms{
+            .nav-pills{
+                margin-top: 1rem;
+            }
+            .tab-content{
+                .tebdetail-wrapper{
+                    //padding: 2rem 1rem 0 1rem !important;
+                    .detailsimg{
+                        margin: 1rem 0 1.5rem 0 !important;
+                    }
+                }
+            }
+        }
+    }  
+
+    .contact-wrapper{
+        .contact-left{
+            float: left;
+            width: 100% !important;
+            .contactimgsection{
+                height: 50vh !important;
+                h2{
+                    width: 80% !important;
+                    font-size: 23px !important;
+                    text-align: center;
+                }
+                p{
+                    width: 80% !important;
+                    margin-top: 0.5rem !important;
+                    text-align: center;
+                }
+            }
+        }
+        .contact-right{
+            float: left;
+            width: 100% !important;
+            .contactformsection{
+                height:  auto !important;
+                padding: 2rem 0 !important;
+                .contactform{
+                    h2{
+                        margin-bottom: 2rem !important;
+                    }
+                    .formbtnmask{
+                        margin-top: 1rem !important;
+                    }
+                    .enquirymask{
+                        margin-top: 2rem !important;
+                    }
+                }
+            }
+        }
+    }
+
+    .bannersvg-wrapper{
+        .bannerinfoleft{
+            h2{
+                text-align: center;
+                padding-bottom: 0px;
+                font-size: 20px !important; 
+            }
+            .banneractonbtn{
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+            }
+        }
+    } 
+    
+    .bannersvg-wrapper{
+        .bannerinfoleft{
+            height: calc(100vh - 380px);
+            margin-top: 4.5rem;
+        }
+        .bannerbottom{
+            .bottom-statics{
+                .weare{
+                    h2{
+                        text-align: center;
+                        font-size: 20px;
+                    }
+                    p{
+                        font-size: 15px;
+                        text-align: center;
+                        margin: 0.8rem 0;
+                        color: #181A2B;
+                        font-family: 'Proxima Nova Rg';
+                        a {
+                            font-size: 15px;
+                            margin-left: 0.5rem;
+                            color: #181A2B;
+                            text-decoration: underline;
+                            font-family: 'Proxima Nova Rg';
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+    .responsive-btn-mob{
+        float: left;
+        width: 100%;
+        .registernow-btn{
+            min-width: 100% !important;
+        }
+    }
+
+    .bannerbottom{
+        .leftdivbg{
+            background: unset;
+            height: auto;
+            h2{
+                font-size: 18px;
+                line-height: unset;
+            }
+        }
+        .rightdivbg{
+            background: unset;
+            flex-direction: column;
+            height: auto;
+            padding: 1rem;
+            h2{
+                margin-bottom: 1rem;
+                border-bottom: 1px solid #1A25A7;
+            }
+            img{
+                margin-bottom: 0.5rem;
+            }
+            .imgfirst{
+                &::after{
+                    display: none;
+                }
+            }
+        }
+    } 
+
+}
+/*mobile horizontal layout*/
+@media (min-width: 480px) and (max-width: 767px) {}
+@media only screen and (max-width : 736px) {}
+@media only screen and (max-width : 667px) {}
+@media only screen and (max-width : 480px) {}
+@media only screen and (max-width : 414px) {}
+@media only screen and (max-width : 375px) {}
+@media only screen and (max-width : 360px) {}
+@media only screen and (max-width : 320px) {}

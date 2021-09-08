@@ -1,0 +1,42 @@
+@import '../../css/variables';
+@import '../../css/mixin';
+.governance-wrapper{
+    float: left;
+    width: 100%;
+    padding: 3rem 0;
+    p{
+        font-size: 14px;
+        line-height: 22px;
+        margin-bottom: 1rem;
+        color: $font-black;
+        font-family: 'Sora', sans-serif;
+        font-weight: 300;
+    }
+    h4{
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 22px;
+        margin-bottom: 0.5rem;
+        color: $font-black;
+        font-family: 'Sora', sans-serif;
+        font-weight: 300;
+    }
+    ul{
+        float: left;
+        width: 100%;
+        list-style: disc;
+        padding: 0px;
+        margin: 0px 0px 1rem 18px;
+        li{
+            float: left;
+            width: 100%;
+            font-size: 14px;
+            line-height: 22px;
+            font-weight: 300;
+            color: $font-black;
+            font-family: 'Sora', sans-serif;
+            font-weight: 300;
+        }
+    }
+    
+}

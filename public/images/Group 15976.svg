@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="227.935" height="56.799" viewBox="0 0 227.935 56.799">
+  <g id="Group_15976" data-name="Group 15976" transform="translate(-25.8 -252.8)">
+    <path id="Certora" d="M205.5,306.906V289.36l4.122-4.122h11.572l3.971,3.971v2.912H221.61v-1.664l-2.156-2.156h-8.206l-2.269,2.269v15.051l2.269,2.269h8.206l2.156-2.156V304.07h3.555v2.912l-3.971,3.971H209.622ZM229.438,285.2H246.8v3.1h-13.8v8.244h12.744v3.063H232.992v8.357h13.8v3.1H229.438Zm40.728,17.736v8.13h-3.555v-7.223l-3.063-3.29h-8.811v10.513h-3.555V285.238h15.24l3.593,3.592v8.017l-2.836,2.836Zm-15.391-5.446h10.1l1.664-1.626v-6.013l-1.664-1.626h-10.1Zm26.131-9.227h-7.79V285.2h19.1v3.063h-7.79v22.765h-3.555V288.263Zm14.105,18.643V289.36l4.122-4.122H311.31l4.122,4.122v17.547l-4.122,4.122H299.133Zm14.635,1.021,2.269-2.269V290.608l-2.269-2.269h-8.773l-2.269,2.269v15.051l2.269,2.269Zm29.95-4.992v8.13h-3.555v-7.223l-3.063-3.29h-8.811v10.513h-3.555V285.238h15.24l3.593,3.592v8.017l-2.836,2.836Zm-15.429-5.446h10.1l1.664-1.626v-6.013l-1.664-1.626h-10.1ZM352,285.2h3.555l9.3,25.828h-3.668l-2.269-6.58H348.71l-2.269,6.58h-3.668Zm5.975,16.3-4.16-12.063h-.076L349.655,301.5Z" transform="translate(-111.123 -19.526)" fill="#fff"/>
+    <g id="Group-4" transform="translate(26.8 253.8)">
+      <path id="Polygon-Copy" d="M73.616,253.8v41.144l-23.408,13.5L26.8,294.944V253.8Z" transform="translate(-26.8 -253.8)" fill="#79f2a5" stroke="#2d505f" stroke-width="2"/>
+      <path id="Polygon" d="M50.208,255.5,73.616,269v27L50.208,309.5,26.8,296V269Z" transform="translate(-26.8 -254.857)" fill="#3399d6" stroke="#2d505f" stroke-width="2"/>
+      <path id="Polygon-Copy-2" d="M50.208,255.5,73.616,296,50.208,309.5,26.8,296Z" transform="translate(-26.8 -254.857)" fill="#40dcff"/>
+      <path id="Path-3" d="M28.3,291.9l45.871,26.623" transform="translate(-27.733 -277.492)" fill="none" stroke="#2d505f" stroke-width="2"/>
+      <path id="Path-3-Copy" d="M74.209,291.9,28.3,318.523" transform="translate(-27.733 -277.492)" fill="none" stroke="#2d505f" stroke-width="2"/>
+      <path id="Path-3-Copy-2" d="M89,257.1v52.678" transform="translate(-65.478 -255.852)" fill="none" stroke="#2d505f" stroke-width="2"/>
+      <path id="Path-3-Copy-3" d="M51.017,256.2,28.1,296.209" transform="translate(-27.608 -255.292)" fill="none" stroke="#2d505f" stroke-width="2"/>
+      <path id="Path-3-Copy-4" d="M88.5,255.5l23.143,40.274" transform="translate(-65.167 -254.857)" fill="none" stroke="#2d505f" stroke-width="2"/>
+      <path id="Polygon-Copy-3" d="M50.208,255.5,73.616,269v27L50.208,309.5,26.8,296V269Z" transform="translate(-26.8 -254.857)" fill="none" stroke="#2d505f" stroke-width="2"/>
+    </g>
+  </g>
+</svg>

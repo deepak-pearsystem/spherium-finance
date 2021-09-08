@@ -1,0 +1,44 @@
+.wallet-wrapper{
+    float: left;
+    width: 100%;
+    padding: 3rem 0;
+    .advantages-tiles{
+        float: left;
+        width: 100%;
+        .card{
+            float: left;
+            width: 100%;
+            border: 1px solid #EAEDF2;
+            border-radius: 10px;
+            margin: 1.5rem 0;
+            img{
+                object-fit: cover;
+                width: 100%;
+            }
+            .cardinfo{
+                width: 80%;
+                margin: 0 auto;
+                flex-direction: column;
+                justify-content: center;
+                align-items: flex-start;
+                display: flex;
+                height: 260px;
+                h2{
+                    font-family: 'Sora', sans-serif;
+                    font-size: 18px;
+                    margin-bottom: 1.5rem;
+                    line-height: 30px;
+                    font-weight: 400;
+                    color: #000B89;
+                }
+                p{
+                    font-family: 'Sora', sans-serif;
+                    font-size: 14px;
+                    line-height: 30px;
+                    font-weight: 300;
+                    color: #2E3147;
+                }
+            }
+        }
+    }
+}

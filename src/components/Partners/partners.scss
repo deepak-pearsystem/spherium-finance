@@ -1,0 +1,63 @@
+
+/**
+ * @file
+ * Countfigures styles
+ */
+ @import '../../css/variables';
+ @import '../../css/mixin';
+
+.auditedverified-wrapper{
+    float: left;
+    width: 100%;
+    height: 950px;
+    background: url('../../img/bluebackground.jpg')no-repeat;
+    padding: 4rem 0 4rem 0; 
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    .tileslinkds{
+        float: left;
+        width: 100%;
+    }
+    .heading{
+        color: $font-white;
+    }
+    .partner-top{
+        margin-top: 2rem;
+    }
+    .auditedverified-cell{
+        float: left;
+        width: 100%;
+        background:#041153;
+        height: 182px;
+        cursor: pointer;
+        display:flex;
+        margin: 1rem 0;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        background-position: top center;
+        &:after{
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 0;
+            z-index: -1;
+            height: 100%;
+            background-color: rgba(255, 255, 255, 0.2);
+            -webkit-transition: none;
+            -moz-transition: none;
+            transition: none;
+          }
+          &:hover:after{
+            background:#ffffff;
+            transition: all .3s ease;
+            width: 120%;
+            background-color: rgba(255, 255, 255, 0);
+            -webkit-transition: all 0.4s ease-in-out;
+            -moz-transition: all 0.4s ease-in-out;
+            transition: all 0.4s ease-in-out;
+        }
+    }
+}

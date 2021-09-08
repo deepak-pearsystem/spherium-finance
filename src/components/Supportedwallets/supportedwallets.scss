@@ -1,0 +1,58 @@
+/**
+ * @file
+ * Countfigures styles
+ */
+ @import '../../css/variables';
+ @import '../../css/mixin';
+
+.supportedwall-wrapper{
+    @include sections;
+    background:$background-secondary;
+    .tabcontainer{
+        #pills-tab{
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            .nav-item{
+                margin: 0px 20px;
+                .nav-link{
+                    font-size: 30px;
+                    font-weight: bold;
+                    border-bottom: 4px solid transparent;
+                    color: $font-tab;
+                    font-family: 'Raleway', sans-serif;
+                }
+                .nav-link.active{
+                    color:  $background-darkblue;
+                    border-bottom: 4px solid  $background-darkblue;
+                    background: transparent;
+                    border-radius: 0px;
+                    -webkit-border-radius: 0px;
+                    -moz-border-radius: 0px;
+                }
+            }
+        }
+        #pills-tabContent{
+            margin-top: 4rem;
+            .tabinnerinfo-mask{
+                float: left;
+                width: 100%;
+                display:flex;
+                align-items: center;
+                justify-content: space-between;
+                .supportiles{
+                    width: 18%;
+                    background: #ffffff;
+                    border: 1px solid #EAEDF2;
+                    height: 150px;
+                    display:flex;
+                    align-items: center;
+                    justify-content: center;
+                    border-radius: 10px;
+                    -webkit-border-radius: 10px;
+                    -moz-border-radius: 10px;
+                }
+            }
+        }
+    }
+}
