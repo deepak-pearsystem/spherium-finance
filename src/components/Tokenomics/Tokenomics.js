@@ -91,57 +91,57 @@ const Tokenomics = () => {
                                     <tr>
                                         <td>Seed</td>
                                         <td>10.00%</td>
-                                        <td>100,000,00</td>
+                                        <td>10,000,000</td>
                                     </tr>
                                     <tr>
                                         <td>Private Sale</td>
                                         <td>12.99%</td>
-                                        <td>129,937,50</td>
+                                        <td>12,993,750</td>
                                     </tr>
                                     <tr>
                                         <td>Strategic Investment Round</td>
                                         <td>1.71%</td>
-                                        <td>170,555,6</td>
+                                        <td>1,705,556</td>
                                     </tr>
                                     <tr>
                                         <td>Public Sale/IDO</td>
                                         <td>1.65%</td>
-                                        <td>164,820,6</td>
+                                        <td>1,648,206</td>
                                     </tr>
                                     <tr>
                                         <td>Initial Liquidity Provision</td>
                                         <td>5.00%</td>
-                                        <td>500,000,0</td>
+                                        <td>5,000,000</td>
                                     </tr>
                                     <tr>
                                         <td>Team</td>
                                         <td>15.00%</td>
-                                        <td>150,000,00</td>
+                                        <td>15,000,000</td>
                                     </tr>
                                     <tr>
                                         <td>Advisors</td>
                                         <td>1.00%</td>
-                                        <td>100,000,0</td>
+                                        <td>1,000,000</td>
                                     </tr>
                                     <tr>
                                         <td>Marketing</td>
                                         <td>12.00%</td>
-                                        <td>120,000,00</td>
+                                        <td>12,000,000</td>
                                     </tr>
                                     <tr>
                                         <td>Legal & Admin</td>
                                         <td>3.00%</td>
-                                        <td>300,000,0</td>
+                                        <td>3,000,000</td>
                                     </tr>
                                     <tr>
                                         <td>Protocol Emission and LP Rewards</td>
                                         <td>15.00%</td>
-                                        <td>150,000,00</td>
+                                        <td>15,000,000</td>
                                     </tr>
                                     <tr>
                                         <td>Ecosystem Development</td>
                                         <td>22.65%</td>
-                                        <td>226,524,88</td>
+                                        <td>22,652,488</td>
                                     </tr>
                                     <tr>
                                         <td>Total Token Supply</td>

@@ -46,6 +46,6 @@ export default function validateInfo(values){
             console.log(error);
         }); 
         }
-
+        
     return errors;
 }   
