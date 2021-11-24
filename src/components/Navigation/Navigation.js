@@ -27,6 +27,9 @@ const Navigation = () => {
                         <Link className="nav-link" to="/hyperlend">Hyperlend</Link>
                     </li>
                     <li className="nav-item">
+                        <Link className="nav-link" to="/hyperlaunch">Hyperlaunch</Link>
+                    </li>
+                    <li className="nav-item">
                         <Link className="nav-link" to="/wallet">Wallet</Link>
                     </li>
                     <li className="nav-item dropdown">

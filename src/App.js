@@ -3,6 +3,7 @@ import Navigation from './components/Navigation/Navigation';
 import Home from './components/Home/Home';
 import Hyperswap from './components/Hyperswap/Hyperswap';
 import Hyperlend from './components/hyperlend/Hyperlend';
+import Hyperlaunch from './components/Hyperlaunch/Hyperlaunch';
 import About from './components/About/About';
 import Termsofservice from './components/Termsofservice/Termsofservice';
 import Privacypolicy from './components/Privacypolicy/Privacypolicy';
@@ -29,6 +30,9 @@ function App() {
             </Route>
             <Route exact path="/hyperlend">
               <Hyperlend/>
+            </Route>
+            <Route exact path="/hyperlaunch">
+              <Hyperlaunch/>
             </Route>
             <Route exact path="/about">
               <About/>
